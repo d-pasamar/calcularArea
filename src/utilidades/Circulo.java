@@ -7,6 +7,14 @@ public class Circulo {
         this.rad = radio;
     }
 
+    public double getRad() {
+        return rad;
+    }
+
+    public void setRad(double rad) {
+        this.rad = rad;
+    }
+
     public void imprimir() {
         String color = "rojo";
         System.out.println("Di�metro: " + 2 * rad);
