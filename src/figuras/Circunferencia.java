@@ -2,6 +2,7 @@ package figuras;
 
 public class Circunferencia {
     private double radio;
+    private String color;
 
     public Circunferencia(double radio) {
         this.radio = radio;
@@ -16,7 +17,7 @@ public class Circunferencia {
     }
 
     public void imprimir() {
-        String color = "rojo";
+        color = "rojo";
         System.out.println("Di�metro: " + 2 * radio);
         System.out.println("Color: " + color);
         double area = 2 * 3.1416 * radio * radio;
